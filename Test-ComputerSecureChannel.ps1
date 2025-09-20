@@ -1,0 +1,1 @@
+Test-ComputerSecureChannel -credential domain\admin -Repair
