@@ -1,6 +1,6 @@
 # Define the server and printer name
-$serverName = "ST4-PS-SVR"
-$printerName = "ST4-QA-LBP01"
+$serverName = "name"
+$printerName = "name"
 
 # Get the print queue for the specified printer on the server
 $printQueue = Get-Printer -ComputerName $serverName | Where-Object { $_.Name -eq $printerName }
